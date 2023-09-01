@@ -1051,4 +1051,8 @@ nav {
         justify-content: center;
         padding-left: 0vmax;
     }
+
+    .bar {
+        height: 30%;
+    }
 }
