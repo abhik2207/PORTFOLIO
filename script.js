@@ -46,7 +46,7 @@ tl_1.from("#nav-left h1, #nav-center a, #nav-right a",{
 });
 
 var typed = new Typed('#typed', {
-    strings: ['Web Developer', 'React Programmer', 'Web Designer', 'Django Porgrammer', 'Database Engineer', 'Graphic Designer', 'MERN Developer'],
+    strings: ['Web Developer', 'React Programmer', 'Web Designer', 'Django Programmer', 'Database Engineer', 'Graphic Designer', 'MERN Developer'],
     typeSpeed: 10,
     backSpeed: 40,
     smartBackspace: true,
