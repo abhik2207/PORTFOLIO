@@ -46,7 +46,7 @@ tl_1.from("#nav-left h1, #nav-center a, #nav-right a",{
 });
 
 var typed = new Typed('#typed', {
-    strings: ['Web Developer', 'React Programmer', 'Web Designer', 'Django Programmer', 'Database Engineer', 'Graphic Designer', 'MERN Developer'],
+    strings: ['Web Developer', 'React Programmer', 'Web Designer', 'Django Porgrammer', 'Database Engineer', 'Graphic Designer', 'MERN Developer'],
     typeSpeed: 10,
     backSpeed: 40,
     smartBackspace: true,
@@ -299,6 +299,28 @@ tl_4.to(".react",{
     width:"80%",
     scrollTrigger:{
         trigger:".react",
+        scroller:"#main",
+        // markers:true,
+        start:"top 85%",
+        end:"top 68%",
+        scrub:2
+    }
+});
+tl_4.to(".redux",{
+    width:"85%",
+    scrollTrigger:{
+        trigger:".redux",
+        scroller:"#main",
+        // markers:true,
+        start:"top 85%",
+        end:"top 68%",
+        scrub:2
+    }
+});
+tl_4.to(".next",{
+    width:"59%",
+    scrollTrigger:{
+        trigger:".next",
         scroller:"#main",
         // markers:true,
         start:"top 85%",
