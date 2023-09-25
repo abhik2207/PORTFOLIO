@@ -37,7 +37,7 @@ tl_1.to("#go-down",{
     repeat:-1,
     yoyo:true
 });
-tl_1.from("#nav-left h1, #nav-center a, #nav-right a",{
+tl_1.from("#nav-left h1, #nav-center a, #nav-right button",{
     y:-200,
     opacity:0,
     delay:0.8,
@@ -749,15 +749,15 @@ navLinks.forEach((link)=>{
     });
 });
 
-const contactButton = document.querySelector("#nav-right a");
+const contactButton = document.querySelector("#nav-right button");
 contactButton.addEventListener("mouseenter",()=>{
     gsap.to(contactButton,{
-        color:"#b0b0b0"
+        backgroundColor:"#d1d1d1"
     });
 });
 contactButton.addEventListener("mouseleave",()=>{
     gsap.to(contactButton,{
-        color:"#fff"
+        backgroundColor:"#fff"
     });
 });
 
