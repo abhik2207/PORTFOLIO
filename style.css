@@ -126,13 +126,39 @@ nav {
     justify-content: center;
 }
 
-#nav-right a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.05vmax;
-    font-weight: 600;
+#nav-right button {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 0.3vmax 0.5vmax;
+    border-radius: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+#nav-right button a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1vmax;
+    font-weight: 600;
+    margin-right: 0.5vmax;
+}
+
+#nav-right button i {
+    text-decoration: none;
+    color: #000;
+    font-size: 1vmax;
+    font-weight: 600;
+    margin-top: 0.2vmax;
+}
+
+#nav-right button:hover {
+    cursor: grab;
+}
+
+#nav-right button:active {
+    cursor: grabbing;
 }
 
 #nav-right a:hover {
