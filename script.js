@@ -416,6 +416,28 @@ tl_4.to(".mysql",{
         scrub:2
     }
 });
+tl_4.to(".git",{
+    width:"100%",
+    scrollTrigger:{
+        trigger:".mysql",
+        scroller:"#main",
+        // markers:true,
+        start:"top 85%",
+        end:"top 68%",
+        scrub:2
+    }
+});
+tl_4.to(".socket",{
+    width:"62%",
+    scrollTrigger:{
+        trigger:".mysql",
+        scroller:"#main",
+        // markers:true,
+        start:"top 85%",
+        end:"top 68%",
+        scrub:2
+    }
+});
 
 var tl_5 = gsap.timeline();
 tl_5.from("#non-technical-skill-header p, #non-technical-skill-header h1",{
