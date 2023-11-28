@@ -401,7 +401,7 @@ nav {
 }
 
 #technical-skill-page {
-    height: 210vh;
+    height: 220vh;
     width: 100vw;
     background-color: #000;
 }
@@ -581,6 +581,14 @@ nav {
 
 .canva {
     background-color: #4C49F0;
+}
+
+.git {
+    background-color: #F05033;
+}
+
+.socket {
+    background-color: #747474;
 }
 
 #non-technical-skill-page {
