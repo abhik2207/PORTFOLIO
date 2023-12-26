@@ -849,9 +849,16 @@ nav {
     width: 40%;
     height: 100%;
     display: flex;
+    /* background-color: red; */
+}
+
+.social-link-in {
+    display: flex;
     align-items: center;
-    gap: 1.2vmax;
-    padding-left: 6vmax;
+    justify-content: space-around;
+    /* background-color: green; */
+    height: 100%;
+    width: 35%;
 }
 
 #social-links img {
@@ -984,7 +991,7 @@ nav {
     #edu-images {
         flex-direction: column;
         height: 89%;
-        width: 10%;
+        width: 15%;
     }
 
     #edu-vertical-lines {
@@ -1027,7 +1034,7 @@ nav {
     #edu-descriptions {
         flex-direction: column;
         height: 95%;
-        width: 60%;
+        width: 55%;
     }
 
     .tech-skill-row {
@@ -1040,6 +1047,10 @@ nav {
     .tech-skill {
         width: 80%;
         margin-bottom: 4.1vmax;
+    }
+
+    .bar {
+        height: 30%;
     }
 
     #non-technical-skill-content {
@@ -1088,13 +1099,37 @@ nav {
         width: 95%;
     }
 
+    #foot-name {
+        width: 15%;
+    }
+
     #social-links {
+        width: 45%;
+        flex-direction: column;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
         padding-left: 0vmax;
     }
 
-    .bar {
-        height: 30%;
+    .social-link-in {
+        justify-content: space-evenly;
+        height: 45%;
+        width: 100%;
+    }
+    
+    #social1 {
+        align-items: flex-end;
+    }
+    
+    #social2 {
+        align-items: flex-start;
+    }
+
+    #contact-options {
+        width: 25%;
+    }
+
+    #foot-to-top {
+        width: 25%;
     }
 }
