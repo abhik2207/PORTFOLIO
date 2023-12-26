@@ -1102,7 +1102,7 @@ nav {
     #foot-name {
         width: 15%;
     }
-
+    
     #social-links {
         width: 45%;
         flex-direction: column;
@@ -1110,7 +1110,7 @@ nav {
         justify-content: space-between;
         padding-left: 0vmax;
     }
-
+    
     .social-link-in {
         justify-content: space-evenly;
         height: 45%;
@@ -1124,12 +1124,13 @@ nav {
     #social2 {
         align-items: flex-start;
     }
-
+    
     #contact-options {
-        width: 25%;
+        width: 40%;
+        align-items: center;
     }
 
     #foot-to-top {
-        width: 25%;
+        width: 10%;
     }
 }
