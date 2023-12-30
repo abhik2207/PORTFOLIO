@@ -22,12 +22,24 @@ loco();
 var main = document.querySelector("#main");
 var cursor = document.querySelector("#cursor");
 document.addEventListener("mousemove",(dets)=>{
-    gsap.to(cursor,{
-        x:`${dets.x-15}px`,
-        y:`${dets.y-15}px`,
-        duration:0.8,
-        easing:"easeInOut",
-        mixBlendMode:"difference"
+    gsap.to(cursor, {
+        x: dets.x,
+        y: dets.y,
+        duration: 0.8,
+        easing: "easeInOut",
+        mixBlendMode: "difference"
+    });
+});
+main.addEventListener("mouseenter", ()=>{
+    gsap.to(cursor, {
+        scale: 1,
+        opacity: 1
+    });
+});
+main.addEventListener("mouseleave", ()=>{
+    gsap.to(cursor, {
+        scale: 0,
+        opacity: 0
     });
 });
 
