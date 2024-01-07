@@ -44,17 +44,31 @@ main.addEventListener("mouseleave", ()=>{
 });
 
 var tl_1 = gsap.timeline();
-tl_1.to("#go-down",{
+tl_1.from("#nav-left h1", {
+    x:-200,
+    opacity:0,
+    delay:0.5,
+    duration: 0.6
+});
+// tl_1.from("#nav-left h1, #nav-center a, #nav-right button",{
+tl_1.from("#nav-center a",{
+    y:-200,
+    opacity:0,
+    // delay:0.5,
+    duration:0.8,
+    stagger:0.2,
+    delay:-0.6
+});
+tl_1.from("#nav-right button", {
+    x:200,
+    opacity:0,
+    duration: 0.6,
+    delay:-0.4
+});
+tl_1.from("#go-down",{
     y:-20,
     repeat:-1,
     yoyo:true
-});
-tl_1.from("#nav-left h1, #nav-center a, #nav-right button",{
-    y:-200,
-    opacity:0,
-    delay:0.8,
-    duration:0.8,
-    stagger:0.2
 });
 
 var typed = new Typed('#typed', {
