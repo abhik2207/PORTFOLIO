@@ -19,47 +19,48 @@ function loco(){
 }
 loco();
 
-var main = document.querySelector("#main");
-var cursor = document.querySelector("#cursor");
-document.addEventListener("mousemove",(dets)=>{
-    gsap.to(cursor, {
-        x: dets.x,
-        y: dets.y,
-        duration: 0.8,
-        easing: "easeInOut",
-        mixBlendMode: "difference"
+function cursorAnimation(){
+    var main = document.querySelector("#main");
+    var cursor = document.querySelector("#cursor");
+    document.addEventListener("mousemove",(dets)=>{
+        gsap.to(cursor, {
+            x: dets.x,
+            y: dets.y,
+            duration: 0.8,
+            easing: "easeInOut",
+            mixBlendMode: "difference"
+        });
     });
-});
-main.addEventListener("mouseenter", ()=>{
-    gsap.to(cursor, {
-        scale: 1,
-        opacity: 1
+    main.addEventListener("mouseenter", ()=>{
+        gsap.to(cursor, {
+            scale: 1,
+            opacity: 1
+        });
     });
-});
-main.addEventListener("mouseleave", ()=>{
-    gsap.to(cursor, {
-        scale: 0,
-        opacity: 0
+    main.addEventListener("mouseleave", ()=>{
+        gsap.to(cursor, {
+            scale: 0,
+            opacity: 0
+        });
     });
-});
+}
+cursorAnimation();
 
 var tl_1 = gsap.timeline();
-tl_1.from("#nav-left h1", {
+tl_1.from("#nav-left h1",{
     x:-200,
     opacity:0,
     delay:0.5,
     duration: 0.6
 });
-// tl_1.from("#nav-left h1, #nav-center a, #nav-right button",{
 tl_1.from("#nav-center a",{
     y:-200,
     opacity:0,
-    // delay:0.5,
     duration:0.8,
     stagger:0.2,
     delay:-0.6
 });
-tl_1.from("#nav-right button", {
+tl_1.from("#nav-right button",{
     x:200,
     opacity:0,
     duration: 0.6,
@@ -72,11 +73,11 @@ tl_1.from("#go-down",{
 });
 
 var typed = new Typed('#typed', {
-    strings: ['Web Developer', 'React Programmer', 'Web Designer', 'Django Porgrammer', 'Database Engineer', 'Graphic Designer', 'MERN Developer'],
-    typeSpeed: 10,
+    strings: ['Full Stack Web Developer', 'React Programmer', 'Django Programmer', 'Web Designer', 'MERN Stack Developer', 'Database Engineer', 'Graphic Designer'],
+    typeSpeed: 20,
     backSpeed: 40,
     smartBackspace: true,
-    backDelay: 1000,
+    backDelay: 1500,
     loop: true 
 });
 
