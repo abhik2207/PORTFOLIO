@@ -267,19 +267,8 @@ tl_4.to(".boot",{
         scrub:2
     }
 });
-tl_4.to(".c",{
-    width:"80%",
-    scrollTrigger:{
-        trigger:".c",
-        scroller:"#main",
-        // markers:true,
-        start:"top 85%",
-        end:"top 68%",
-        scrub:2
-    }
-});
 tl_4.to(".cpp",{
-    width:"95%",
+    width:"100%",
     scrollTrigger:{
         trigger:".cpp",
         scroller:"#main",
@@ -446,7 +435,7 @@ tl_4.to(".mysql",{
 tl_4.to(".git",{
     width:"100%",
     scrollTrigger:{
-        trigger:".mysql",
+        trigger:".git",
         scroller:"#main",
         // markers:true,
         start:"top 85%",
@@ -455,9 +444,20 @@ tl_4.to(".git",{
     }
 });
 tl_4.to(".socket",{
-    width:"62%",
+    width:"75%",
     scrollTrigger:{
-        trigger:".mysql",
+        trigger:".socket",
+        scroller:"#main",
+        // markers:true,
+        start:"top 85%",
+        end:"top 68%",
+        scrub:2
+    }
+});
+tl_4.to(".framer",{
+    width:"75%",
+    scrollTrigger:{
+        trigger:".framer",
         scroller:"#main",
         // markers:true,
         start:"top 85%",
