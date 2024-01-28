@@ -497,7 +497,7 @@ nav {
 }
 
 .html {
-    background-color: #FF4B00;
+    background-color: #FF7816;
 }
 
 .css {
@@ -520,12 +520,8 @@ nav {
     background-color: #860AFB;
 }
 
-.c {
-    background-color: #00589D;
-}
-
 .cpp {
-    background-color: #659AD2;
+    background-color: #00589D;
 }
 
 .java {
@@ -590,6 +586,10 @@ nav {
 
 .socket {
     background-color: #747474;
+}
+
+.framer {
+    background-color: #E43090;
 }
 
 #non-technical-skill-page {
