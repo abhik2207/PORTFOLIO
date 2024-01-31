@@ -942,10 +942,11 @@ nav {
 
     #intro-center h1 {
         font-size: 4vmax;
+        -webkit-text-stroke: 1px #fff;
     }
 
     #heading4 span {
-        font-size: 3.5vmax;
+        font-size: 4vmax;
         white-space: nowrap;
     }
 
@@ -1038,6 +1039,11 @@ nav {
         width: 55%;
     }
 
+    #technical-skill-header {
+        align-items: center;
+        padding: 0vmax 0vmax;
+    }
+
     .tech-skill-row {
         flex-direction: column;
         height: 12vmax;
@@ -1052,6 +1058,11 @@ nav {
 
     .bar {
         height: 30%;
+    }
+
+    #non-technical-skill-header {
+        align-items: center;
+        padding: 0vmax 0vmax;
     }
 
     #non-technical-skill-content {
@@ -1070,6 +1081,11 @@ nav {
 
     .pie-center h6 {
         font-size: 1.8vmax;
+    }
+
+    #project-header {
+        align-items: center;
+        padding: 0vmax 0vmax;
     }
 
     .project {
