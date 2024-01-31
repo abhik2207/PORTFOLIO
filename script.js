@@ -2,8 +2,7 @@ function loco(){
     gsap.registerPlugin(ScrollTrigger);
     const locoScroll = new LocomotiveScroll({
         el: document.querySelector("#main"),
-        smooth: true,
-        lerp: 0.05
+        smooth: true
     });
     locoScroll.on("scroll", ScrollTrigger.update);
     ScrollTrigger.scrollerProxy("#main", {
@@ -74,7 +73,7 @@ tl_1.from("#go-down",{
 });
 
 var typed = new Typed('#typed', {
-    strings: ['Full Stack Web Developer', 'React Programmer', 'Django Programmer', 'Web Designer', 'MERN Stack Developer', 'Database Engineer', 'Graphic Designer'],
+    strings: ['Full Stack Developer', 'Web Designer', 'Database Engineer', 'Graphic Designer', 'DSA Enthusiast'],
     typeSpeed: 20,
     backSpeed: 40,
     smartBackspace: true,
