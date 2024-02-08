@@ -142,7 +142,7 @@ tl_3.from("#education-header p, #education-header h1",{
         trigger:"#education-header h1",
         scroller:"#main",
         // markers:true,
-        start:"top 80%",
+        start:"top 85%",
         end:"top 65%",
         scrub:2
     }
@@ -155,8 +155,8 @@ tl_3.from("#edu-images img",{
         trigger:"#edu-images",
         scroller:"#main",
         // markers:true,
-        start:"top 60%",
-        end:"top 45%",
+        start:"top 70%",
+        end:"top 50%",
         scrub:2
     }
 });
@@ -168,7 +168,7 @@ tl_3.from(".edu-v-line",{
         trigger:".edu-v-line",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
+        start:"top 80%",
         end:"top 70%",
         scrub:2
     }
@@ -181,8 +181,8 @@ tl_3.from(".education h3, .education p",{
         trigger:"#edu-descriptions",
         scroller:"#main",
         // markers:true,
-        start:"top 92%",
-        end:"top 78%",
+        start:"top 90%",
+        end:"top 80%",
         scrub:2
     }
 });
@@ -196,8 +196,8 @@ tl_4.from("#technical-skill-header p, #technical-skill-header h1",{
         trigger:"#technical-skill-header h1",
         scroller:"#main",
         // markers:true,
-        start:"top 80%",
-        end:"top 65%",
+        start:"top 90%",
+        end:"top 75%",
         scrub:2
     }
 });
@@ -207,8 +207,8 @@ tl_4.to(".html",{
         trigger:".html",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -218,8 +218,8 @@ tl_4.to(".css",{
         trigger:".css",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -229,8 +229,8 @@ tl_4.to(".js",{
         trigger:".js",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -240,8 +240,8 @@ tl_4.to(".gsap",{
         trigger:".gsap",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -251,8 +251,8 @@ tl_4.to(".tail",{
         trigger:".tail",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -262,8 +262,8 @@ tl_4.to(".boot",{
         trigger:".boot",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -273,8 +273,19 @@ tl_4.to(".cpp",{
         trigger:".cpp",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
+        scrub:2
+    }
+});
+tl_4.to(".c",{
+    width:"100%",
+    scrollTrigger:{
+        trigger:".c",
+        scroller:"#main",
+        // markers:true,
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -284,8 +295,8 @@ tl_4.to(".java",{
         trigger:".java",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -295,8 +306,8 @@ tl_4.to(".py",{
         trigger:".py",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -306,8 +317,8 @@ tl_4.to(".dj",{
         trigger:".dj",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -317,8 +328,19 @@ tl_4.to(".react",{
         trigger:".react",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
+        scrub:2
+    }
+});
+tl_4.to(".redux",{
+    width:"90%",
+    scrollTrigger:{
+        trigger:".redux",
+        scroller:"#main",
+        // markers:true,
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -328,8 +350,8 @@ tl_4.to(".ts",{
         trigger:".ts",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -339,8 +361,8 @@ tl_4.to(".next",{
         trigger:".next",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -350,8 +372,8 @@ tl_4.to(".node",{
         trigger:".node",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -361,8 +383,8 @@ tl_4.to(".exp",{
         trigger:".exp",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -372,8 +394,8 @@ tl_4.to(".dsa",{
         trigger:".dsa",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -383,8 +405,8 @@ tl_4.to(".php",{
         trigger:".php",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -394,8 +416,8 @@ tl_4.to(".mongo",{
         trigger:".mongo",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -405,8 +427,8 @@ tl_4.to(".post",{
         trigger:".post",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -416,8 +438,8 @@ tl_4.to(".canva",{
         trigger:".canva",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -427,8 +449,8 @@ tl_4.to(".mysql",{
         trigger:".mysql",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -438,8 +460,8 @@ tl_4.to(".git",{
         trigger:".git",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -449,8 +471,8 @@ tl_4.to(".socket",{
         trigger:".socket",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -460,8 +482,8 @@ tl_4.to(".framer",{
         trigger:".framer",
         scroller:"#main",
         // markers:true,
-        start:"top 85%",
-        end:"top 68%",
+        start:"top 90%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -475,7 +497,7 @@ tl_5.from("#non-technical-skill-header p, #non-technical-skill-header h1",{
         trigger:"#non-technical-skill-header h1",
         scroller:"#main",
         // markers:true,
-        start:"top 80%",
+        start:"top 85%",
         end:"top 65%",
         scrub:2
     }
@@ -487,7 +509,7 @@ tl_5.to(".lead",{
         scroller:"#main",
         // markers:true,
         start:"top 95%",
-        end:"top 75%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -498,7 +520,7 @@ tl_5.to(".pers",{
         scroller:"#main",
         // markers:true,
         start:"top 95%",
-        end:"top 75%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -509,7 +531,7 @@ tl_5.to(".resi",{
         scroller:"#main",
         // markers:true,
         start:"top 95%",
-        end:"top 75%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -520,7 +542,7 @@ tl_5.to(".hard",{
         scroller:"#main",
         // markers:true,
         start:"top 95%",
-        end:"top 75%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -531,7 +553,7 @@ tl_5.to(".crtv",{
         scroller:"#main",
         // markers:true,
         start:"top 95%",
-        end:"top 75%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -542,7 +564,7 @@ tl_5.to(".invt",{
         scroller:"#main",
         // markers:true,
         start:"top 95%",
-        end:"top 75%",
+        end:"top 70%",
         scrub:2
     }
 });
@@ -556,7 +578,7 @@ tl_6.from("#project-header p, #project-header h1",{
         trigger:"#project-header h1",
         scroller:"#main",
         // markers:true,
-        start:"top 80%",
+        start:"top 85%",
         end:"top 65%",
         scrub:2
     }

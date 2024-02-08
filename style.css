@@ -402,7 +402,7 @@ nav {
 }
 
 #technical-skill-page {
-    height: 220vh;
+    height: 230vh;
     width: 100vw;
     background-color: #000;
 }
@@ -524,6 +524,10 @@ nav {
     background-color: #00589D;
 }
 
+.c {
+    background-color: #00589D;
+}
+
 .java {
     background-color: #F89917;
 }
@@ -534,6 +538,10 @@ nav {
 
 .react {
     background-color: #00D8FF;
+}
+
+.redux {
+    background-color: #6737B8;
 }
 
 .dj {
