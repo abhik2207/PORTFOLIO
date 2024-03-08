@@ -4,6 +4,26 @@ function loco(){
         el: document.querySelector("#main"),
         smooth: true
     });
+    const toTop = document.querySelector('#foot-to-top > img');
+    toTop.addEventListener('click', () => {
+        locoScroll.scrollTo(0);
+    });
+    const toAbout = document.querySelector('#to-about');
+    toAbout.addEventListener('click', () => {
+        locoScroll.scrollTo(window.innerHeight);
+    });
+    const toEducation = document.querySelector('#to-education');
+    toEducation.addEventListener('click', () => {
+        locoScroll.scrollTo(window.innerHeight*2);
+    });
+    const toSkills = document.querySelector('#to-skills');
+    toSkills.addEventListener('click', () => {
+        locoScroll.scrollTo(window.innerHeight*3);
+    });
+    const toProjects = document.querySelector('#to-projects');
+    toProjects.addEventListener('click', () => {
+        locoScroll.scrollTo(window.innerHeight*6.3);
+    });
     locoScroll.on("scroll", ScrollTrigger.update);
     ScrollTrigger.scrollerProxy("#main", {
         scrollTop(value) {
