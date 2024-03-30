@@ -965,6 +965,7 @@ nav {
 
     #about-content {
         flex-direction: column;
+        padding: 0vmax 0vmax;
     }
 
     #about-img {
@@ -1080,6 +1081,8 @@ nav {
     .non-tech-skill-row  {
         flex-direction: column;
         gap: 6vmax;
+        height: 100%;
+        width: 50%;
     }
 
     .pie {
