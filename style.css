@@ -945,7 +945,7 @@ nav {
     }
 
     #nav-center {
-        gap: 2vmax;
+        width: 80%;
     }
 
     #intro-center h1 {

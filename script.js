@@ -74,11 +74,11 @@ tl_1.from("#nav-left h1",{
     duration: 0.6
 });
 tl_1.from("#nav-center a",{
-    y:-200,
+    y:-100,
     opacity:0,
     duration:0.8,
     stagger:0.2,
-    delay:-0.6
+    delay:-0.5
 });
 tl_1.from("#nav-right button",{
     x:200,
