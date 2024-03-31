@@ -2,7 +2,8 @@ function loco(){
     gsap.registerPlugin(ScrollTrigger);
     const locoScroll = new LocomotiveScroll({
         el: document.querySelector("#main"),
-        smooth: true
+        smooth: true,
+        lerp: 0.05
     });
     const toTop = document.querySelector('#foot-to-top > img');
     toTop.addEventListener('click', () => {
