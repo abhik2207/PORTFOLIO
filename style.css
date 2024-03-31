@@ -268,7 +268,7 @@ nav {
     height: 30vmax;
     object-fit: cover;
     border-radius: 50%;
-    opacity: 0.8;
+    opacity: 0.85;
     cursor: grab;
 }
 
@@ -971,6 +971,10 @@ nav {
     #about-img {
         height: 50%;
         width: 100%;
+    }
+
+    #about-img > img {
+        opacity: 1;
     }
 
     #about-para {
