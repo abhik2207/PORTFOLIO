@@ -464,6 +464,17 @@ tl_4.to(".canva",{
         scrub:2
     }
 });
+tl_4.to(".figma",{
+    width:"80%",
+    scrollTrigger:{
+        trigger:".figma",
+        scroller:"#main",
+        // markers:true,
+        start:"top 90%",
+        end:"top 70%",
+        scrub:2
+    }
+});
 tl_4.to(".mysql",{
     width:"95%",
     scrollTrigger:{
