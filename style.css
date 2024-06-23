@@ -263,7 +263,7 @@ nav {
     align-items: center;
 }
 
-#about-img img {
+#about-img > img {
     width: 30vmax;
     height: 30vmax;
     object-fit: cover;
@@ -980,6 +980,8 @@ nav {
 
     #about-img > img {
         opacity: 1;
+        width: 35vmax;
+        height: 35vmax;
     }
 
     #about-para {
@@ -990,6 +992,13 @@ nav {
     #about-card {
         width: 85%;
         height: fit-content;
+        border-radius: 10px;
+        padding: 1.5vmax;
+    }
+
+    #about-card > p {
+        font-size: 1.1vmax;
+        letter-spacing: 0.05vmax;
     }
 
     #education-header {
@@ -1117,11 +1126,14 @@ nav {
     .project-cover {
         width: 90%;
         height: 60%;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #ffffff79;
     }
 
     .project-name {
         width: 90%;
         height: 40%;
+        padding-left: 1vmax;
     }
 
     #featured-projects {
