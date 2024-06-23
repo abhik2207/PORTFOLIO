@@ -90,7 +90,8 @@ tl_1.from("#nav-right button",{
 tl_1.from("#go-down",{
     y:-20,
     repeat:-1,
-    yoyo:true
+    yoyo:true,
+    ease: "bounce.out"
 });
 
 var typed = new Typed('#typed', {
@@ -667,12 +668,12 @@ tl_6.from(".magma>.project-name>h1, .magma>.project-name>p",{
         scrub:2
     }
 });
-tl_6.from(".toyfight>.project-cover",{
+tl_6.from(".vendr>.project-cover",{
     scale:0,
     opacity:0,
     stagger:0.2,
     scrollTrigger:{
-        trigger:".toyfight>.project-name>h1",
+        trigger:".vendr>.project-name>h1",
         scroller:"#main",
         // markers:true,
         start:"top 95%",
@@ -680,12 +681,12 @@ tl_6.from(".toyfight>.project-cover",{
         scrub:2
     }
 });
-tl_6.from(".toyfight>.project-name>h1, .toyfight>.project-name>p",{
+tl_6.from(".vendr>.project-name>h1, .vendr>.project-name>p",{
     y:200,
     opacity:0,
     stagger:0.2,
     scrollTrigger:{
-        trigger:".toyfight>.project-name>h1",
+        trigger:".vendr>.project-name>h1",
         scroller:"#main",
         // markers:true,
         start:"top 95%",
@@ -693,12 +694,12 @@ tl_6.from(".toyfight>.project-name>h1, .toyfight>.project-name>p",{
         scrub:2
     }
 });
-tl_6.from(".niccolo>.project-cover",{
+tl_6.from(".convoverse>.project-cover",{
     scale:0,
     opacity:0,
     stagger:0.2,
     scrollTrigger:{
-        trigger:".niccolo>.project-name>h1",
+        trigger:".convoverse>.project-name>h1",
         scroller:"#main",
         // markers:true,
         start:"top 95%",
@@ -706,12 +707,12 @@ tl_6.from(".niccolo>.project-cover",{
         scrub:2
     }
 });
-tl_6.from(".niccolo>.project-name>h1, .niccolo>.project-name>p",{
+tl_6.from(".convoverse>.project-name>h1, .convoverse>.project-name>p",{
     y:200,
     opacity:0,
     stagger:0.2,
     scrollTrigger:{
-        trigger:".niccolo>.project-name>h1",
+        trigger:".convoverse>.project-name>h1",
         scroller:"#main",
         // markers:true,
         start:"top 95%",
@@ -719,12 +720,12 @@ tl_6.from(".niccolo>.project-name>h1, .niccolo>.project-name>p",{
         scrub:2
     }
 });
-tl_6.from(".wondermart>.project-cover",{
+tl_6.from(".scribblehub>.project-cover",{
     scale:0,
     opacity:0,
     stagger:0.2,
     scrollTrigger:{
-        trigger:".wondermart>.project-name>h1",
+        trigger:".scribblehub>.project-name>h1",
         scroller:"#main",
         // markers:true,
         start:"top 95%",
@@ -732,12 +733,12 @@ tl_6.from(".wondermart>.project-cover",{
         scrub:2
     }
 });
-tl_6.from(".wondermart>.project-name>h1, .wondermart>.project-name>p",{
+tl_6.from(".scribblehub>.project-name>h1, .scribblehub>.project-name>p",{
     y:200,
     opacity:0,
     stagger:0.2,
     scrollTrigger:{
-        trigger:".wondermart>.project-name>h1",
+        trigger:".scribblehub>.project-name>h1",
         scroller:"#main",
         // markers:true,
         start:"top 95%",
@@ -745,12 +746,12 @@ tl_6.from(".wondermart>.project-name>h1, .wondermart>.project-name>p",{
         scrub:2
     }
 });
-tl_6.from(".planit>.project-cover",{
+tl_6.from(".voxel>.project-cover",{
     scale:0,
     opacity:0,
     stagger:0.2,
     scrollTrigger:{
-        trigger:".planit>.project-name>h1",
+        trigger:".voxel>.project-name>h1",
         scroller:"#main",
         // markers:true,
         start:"top 95%",
@@ -758,12 +759,12 @@ tl_6.from(".planit>.project-cover",{
         scrub:2
     }
 });
-tl_6.from(".planit>.project-name>h1, .planit>.project-name>p",{
+tl_6.from(".voxel>.project-name>h1, .voxel>.project-name>p",{
     y:200,
     opacity:0,
     stagger:0.2,
     scrollTrigger:{
-        trigger:".planit>.project-name>h1",
+        trigger:".voxel>.project-name>h1",
         scroller:"#main",
         // markers:true,
         start:"top 95%",
@@ -771,12 +772,12 @@ tl_6.from(".planit>.project-name>h1, .planit>.project-name>p",{
         scrub:2
     }
 });
-tl_6.from(".textutils>.project-cover",{
+tl_6.from(".wordle>.project-cover",{
     scale:0,
     opacity:0,
     stagger:0.2,
     scrollTrigger:{
-        trigger:".textutils>.project-name>h1",
+        trigger:".wordle>.project-name>h1",
         scroller:"#main",
         // markers:true,
         start:"top 95%",
@@ -784,12 +785,12 @@ tl_6.from(".textutils>.project-cover",{
         scrub:2
     }
 });
-tl_6.from(".textutils>.project-name>h1, .textutils>.project-name>p",{
+tl_6.from(".wordle>.project-name>h1, .wordle>.project-name>p",{
     y:200,
     opacity:0,
     stagger:0.2,
     scrollTrigger:{
-        trigger:".textutils>.project-name>h1",
+        trigger:".wordle>.project-name>h1",
         scroller:"#main",
         // markers:true,
         start:"top 95%",

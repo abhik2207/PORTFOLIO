@@ -57,8 +57,8 @@ body {
 }
 
 #cursor {
-    width: 30px;
-    height: 30px;
+    width: 2.25vmax;
+    height: 2.25vmax;
     background-color: #fff;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -211,7 +211,7 @@ nav {
 #go-down {
     background-color: #fff;
     position: absolute;
-    bottom: 0.4vmax;
+    bottom: 1vmax;
     padding: 0.1vmax;
     border-radius: 50%;
 }
@@ -267,6 +267,7 @@ nav {
     width: 30vmax;
     height: 30vmax;
     object-fit: cover;
+    object-position: top;
     border-radius: 50%;
     opacity: 0.85;
     cursor: grab;
