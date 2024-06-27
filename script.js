@@ -694,12 +694,12 @@ tl_6.from(".vendr>.project-name>h1, .vendr>.project-name>p",{
         scrub:2
     }
 });
-tl_6.from(".convoverse>.project-cover",{
+tl_6.from(".blinkchat>.project-cover",{
     scale:0,
     opacity:0,
     stagger:0.2,
     scrollTrigger:{
-        trigger:".convoverse>.project-name>h1",
+        trigger:".blinkchat>.project-name>h1",
         scroller:"#main",
         // markers:true,
         start:"top 95%",
@@ -707,12 +707,12 @@ tl_6.from(".convoverse>.project-cover",{
         scrub:2
     }
 });
-tl_6.from(".convoverse>.project-name>h1, .convoverse>.project-name>p",{
+tl_6.from(".blinkchat>.project-name>h1, .blinkchat>.project-name>p",{
     y:200,
     opacity:0,
     stagger:0.2,
     scrollTrigger:{
-        trigger:".convoverse>.project-name>h1",
+        trigger:".blinkchat>.project-name>h1",
         scroller:"#main",
         // markers:true,
         start:"top 95%",
