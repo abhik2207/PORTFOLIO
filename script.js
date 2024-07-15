@@ -257,7 +257,7 @@ tl_4.to(".js",{
     }
 });
 tl_4.to(".gsap",{
-    width:"100%",
+    width:"95%",
     scrollTrigger:{
         trigger:".gsap",
         scroller:"#main",
@@ -268,7 +268,7 @@ tl_4.to(".gsap",{
     }
 });
 tl_4.to(".tail",{
-    width:"85%",
+    width:"95%",
     scrollTrigger:{
         trigger:".tail",
         scroller:"#main",
@@ -279,7 +279,7 @@ tl_4.to(".tail",{
     }
 });
 tl_4.to(".boot",{
-    width:"95%",
+    width:"90%",
     scrollTrigger:{
         trigger:".boot",
         scroller:"#main",
@@ -345,7 +345,7 @@ tl_4.to(".dj",{
     }
 });
 tl_4.to(".react",{
-    width:"90%",
+    width:"95%",
     scrollTrigger:{
         trigger:".react",
         scroller:"#main",
@@ -356,7 +356,7 @@ tl_4.to(".react",{
     }
 });
 tl_4.to(".redux",{
-    width:"90%",
+    width:"95%",
     scrollTrigger:{
         trigger:".redux",
         scroller:"#main",
@@ -378,7 +378,7 @@ tl_4.to(".ts",{
     }
 });
 tl_4.to(".next",{
-    width:"60%",
+    width:"85%",
     scrollTrigger:{
         trigger:".next",
         scroller:"#main",
@@ -389,7 +389,7 @@ tl_4.to(".next",{
     }
 });
 tl_4.to(".node",{
-    width:"90%",
+    width:"95%",
     scrollTrigger:{
         trigger:".node",
         scroller:"#main",
@@ -411,7 +411,7 @@ tl_4.to(".exp",{
     }
 });
 tl_4.to(".dsa",{
-    width:"80%",
+    width:"72%",
     scrollTrigger:{
         trigger:".dsa",
         scroller:"#main",
@@ -422,7 +422,7 @@ tl_4.to(".dsa",{
     }
 });
 tl_4.to(".php",{
-    width:"80%",
+    width:"75%",
     scrollTrigger:{
         trigger:".php",
         scroller:"#main",
@@ -510,7 +510,7 @@ tl_4.to(".socket",{
     }
 });
 tl_4.to(".framer",{
-    width:"75%",
+    width:"85%",
     scrollTrigger:{
         trigger:".framer",
         scroller:"#main",

@@ -2,22 +2,22 @@
 
 @font-face {
     font-family: averta-light;
-    src: url(./AvertaCY-Light.ttf);
+    src: url(./fonts/AvertaCY-Light.ttf);
 }
 
 @font-face {
     font-family: averta-bold;
-    src: url(./AvertaCY-Bold.ttf);
+    src: url(./fonts/AvertaCY-Bold.ttf);
 }
 
 @font-face {
     font-family: averta-semibold;
-    src: url(./AvertaCY-Semibold.ttf);
+    src: url(./fonts/AvertaCY-Semibold.ttf);
 }
 
 @font-face {
     font-family: averta-medium;
-    src: url(./AvertaCY-Regular.ttf);
+    src: url(./fonts/AvertaCY-Regular.ttf);
 }
 
 * {
