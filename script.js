@@ -824,6 +824,32 @@ tl_6.from(".newsmonkey>.project-name>h1, .newsmonkey>.project-name>p",{
         scrub:2
     }
 });
+tl_6.from(".savorly>.project-cover",{
+    scale:0,
+    opacity:0,
+    stagger:0.2,
+    scrollTrigger:{
+        trigger:".savorly>.project-name>h1",
+        scroller:"#main",
+        // markers:true,
+        start:"top 95%",
+        end:"top 80%",
+        scrub:2
+    }
+});
+tl_6.from(".savorly>.project-name>h1, .savorly>.project-name>p",{
+    y:200,
+    opacity:0,
+    stagger:0.2,
+    scrollTrigger:{
+        trigger:".savorly>.project-name>h1",
+        scroller:"#main",
+        // markers:true,
+        start:"top 95%",
+        end:"top 80%",
+        scrub:2
+    }
+});
 tl_6.from("#more-projects p",{
     x:-300,
     opacity:0,
