@@ -72,7 +72,7 @@ var tl_1 = gsap.timeline();
 tl_1.to("#loader>h1", {
     opacity: 0,
     duration: 0.5,
-    delay: 1.2
+    delay: 2.5
 });
 
 tl_1.to(".loader-sleeve:nth-child(2n)", {
